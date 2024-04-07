@@ -3,6 +3,15 @@ Complete Registration form with Backend
 
 For using it you first have to clone this Repo , then open the folder where you have clone , then write these command in terminal
 
+
+          npm i express hbs dotenv bcryptjs jsonwebtoken mongoose
+Then go to main root terminal and type
+
+          node src/app.js
+                 
+
+what this project uses
+
  1. For initializing a project
 
             npm init -y
@@ -16,13 +25,26 @@ For using it you first have to clone this Repo , then open the folder where you 
 
             nmp install mongoose
 
-    b) For handlebars
+    c) For handlebars
 
             npm install hbs
 
-Then you have to run the app.js by writting
+    d) For JSON web Token
 
-           node src/app.js
+            npm install jsonwebtokens
+
+    e) For hashing
+
+            npm install bcryptjs
+
+    f) For cookies
+
+            npm install cookie-parser
+
+    g) For env files
+
+            npm install dotenv
+
 
            
      
